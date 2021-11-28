@@ -1,0 +1,36 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper{ 
+  background-color: rgb(27, 27, 27);
+  color:rgb(201, 201, 201);
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrapper h1 {
+  margin: 20px;
+}
+
+
+body #picture {
+  max-width: 500px;
+  max-height: auto;
+  margin: 50px;
+  object-fit: contain;
+
+}
+
+@media screen and (max-width:414px) {
+  body #picture {
+    max-width: 400px;
+    max-height: auto;
+    margin: 50px;
+    object-fit: contain;
+  }
+}
