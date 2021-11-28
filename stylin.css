@@ -4,13 +4,13 @@
 }
 
 .wrapper{ 
-        background-color: rgb(27, 27, 27);
-        color:rgb(201, 201, 201);
-        font-family: Montserrat, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+  background-color: rgb(27, 27, 27);
+  color:rgb(201, 201, 201);
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .wrapper h1 {
