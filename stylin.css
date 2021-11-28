@@ -13,6 +13,10 @@
         flex-direction: column;
 }
 
+.wrapper h1 {
+  margin: 20px;
+}
+
 
 body #picture {
   max-width: 500px;
@@ -20,4 +24,13 @@ body #picture {
   margin: 50px;
   object-fit: contain;
 
+}
+
+@media screen and (max-width:414px) {
+  body #picture {
+    max-width: 400px;
+    max-height: auto;
+    margin: 50px;
+    object-fit: contain;
+  }
 }
