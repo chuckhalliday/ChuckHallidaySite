@@ -10,8 +10,8 @@
         align-items: center;
         flex-direction: column;
     }
-img {
-  width: 40px;
-  height: auto;
+#picture {
+  max-width: 10%;
+  max-height: auto;
 
 }
