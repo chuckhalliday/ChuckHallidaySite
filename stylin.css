@@ -45,6 +45,7 @@ body #picture {
   }
 
   .link {
+    margin: 50px;
     color: inherit;
     text-decoration: none;
   }
