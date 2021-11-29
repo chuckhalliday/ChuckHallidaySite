@@ -43,4 +43,9 @@ body #picture {
     margin: 50px;
     object-fit: contain;
   }
+
+  .link {
+    color: inherit;
+    text-decoration: none;
+  }
 }
