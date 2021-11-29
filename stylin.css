@@ -16,6 +16,7 @@
 .wrapper h1 {
   margin: 20px;
   font-weight: bold;
+  font-size: 28pt;
 }
 
 .wrapper h2 {
@@ -23,7 +24,7 @@
  
 }
 
-.link {
+a {
   color: inherit;
   text-decoration: none;
 }
@@ -42,11 +43,7 @@ body #picture {
     max-height: auto;
     margin: 50px;
     object-fit: contain;
+    justify-content: center;
   }
 
-  .link {
-    margin: 50px;
-    color: inherit;
-    text-decoration: none;
-  }
 }
