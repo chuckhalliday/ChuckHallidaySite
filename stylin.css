@@ -39,6 +39,7 @@ body #picture {
 
 @media screen and (max-width:414px) {
   body #picture {
+    display: flex;
     max-width: 400px;
     max-height: auto;
     margin: 50px;
