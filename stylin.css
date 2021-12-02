@@ -37,6 +37,28 @@ body #picture {
 
 }
 
+.songform {
+  color:rgb(201, 201, 201);
+  font-family: Montserrat, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+#submit {
+  background-color: white;
+  padding: 5px;
+}
+
+select, #lyrics {
+  background-color: white;
+  margin: 10px;
+}
+
+
 @media screen and (max-width:414px) {
   body #picture {
     display: flex;

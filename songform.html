@@ -13,9 +13,61 @@
 </head>
 
 <body>
-    <form>
+    <form action= "" method= "POST" class= "songform">
+        <h2>Sketch a song</h2>
+        <br>
+        <section class= "tonality">
+            <label for= "key">Select a key</label>
+            <select name= "key" id= "key">
+                <option value="C">C</option>
+                <option value="C#">C#</option>
+                <option value="D">D</option>
+                <option value="D#">D#</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+                <option value="F#">F#</option>
+                <option value="G">G</option>
+                <option value="G#">G#</option>
+                <option value="A">A</option>
+                <option value="A#">A#</option>
+                <option value="B">B</option>
+            </select>
+        </section>
+        <br>
+        <section class= "tonality">
+            <label for= "mode">Select a mode</label>
+            <select name= "mode" id= "mode">
+                <option value="Major">Major</option>
+                <option value="Minor">Minor</option>
+                <option value="Harmonic Minor">Harmonic Minor</option>
+                <option value="Dorian">Dorian</option>
+                <option value="Phrygian">Phrygian</option>
+                <option value="Lydian">Lydian</option>
+                <option value="Mixolydian">Mixolydian</option>
+                <option value="Locrian">Locrian</option>
+            </select>
+        </section>
+        <br>
+        <section class= 'speed'>
+            <label for= 'tempo'>Select a tempo</label>
+            <br>
+            <span>60bpm</span>
+            <input type="range" name="tempo" id="tempo" min="60" max="120" step="5">
+            <span>120bpm</span>
 
-        
+        </section>
+        <br>
+        <section class="lyrics">
+            <label for="ideas">Title/Theme/Lyrics</label>
+            <br>
+            <textarea id="lyrics" name="lyrics" rows="3" cols="40" background-color= 'white'></textarea>
+          </section>
+          <br>
+          <section class="submission">
+            <input type="submit" value="Submit" id="submit">
+          </section>
+
+
     </form>
 
 </body>
