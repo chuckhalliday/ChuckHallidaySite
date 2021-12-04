@@ -51,6 +51,7 @@ body #picture {
 #submit {
   background-color: white;
   padding: 5px;
+  color: black;
 }
 
 select, #lyrics {
