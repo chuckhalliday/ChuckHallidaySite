@@ -48,17 +48,29 @@ body #picture {
   
 }
 
-#submit {
+#submitsong {
   background-color: white;
   padding: 5px;
   color: black;
 }
 
-select, #lyrics {
+select, #lyrics, #faninfo {
   background-color: white;
   margin: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+.usersname {
+  position:sticky;
+  float:left
+}
+
+.email {
+  position: sticky;
+  float:right
+}
 
 @media screen and (max-width:414px) {
   body #picture {

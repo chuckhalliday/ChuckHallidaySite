@@ -5,7 +5,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <script src="./animations.js" async></script>
+    <script type='module' src="./animations.js" async></script>
     <link href='./stylin.css' rel= 'stylesheet'>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,9 @@
 </head>
 
 <body>
-    <form action= "" method= "POST" class= "songform">
+    <style>.hide {position:absolute; top:-1px; left:-1px; width: 1px; height:1px; }</style>
+    <iframe name='hiddenFrame' class='hide'></iframe>
+    <form action= "" method= "POST" class= "songform" target='hiddenFrame'>
         <h2>Sketch a song</h2>
         <br>
         <section class= "tonality">
@@ -60,11 +62,25 @@
         <section class="lyrics">
             <label for="ideas">Title/Theme/Lyrics</label>
             <br>
-            <textarea id="lyrics" name="lyrics" rows="10" cols="40" background-color= 'white'></textarea>
+            <textarea id="lyrics" name="lyrics" rows="10" cols="40" background-color= 'white' required></textarea>
           </section>
           <br>
+          <div class= 'infofloat'>
+          <section class="usersname">
+            <label for="usersname">Your name</label>
+            <br>
+            <textarea id="faninfo" name="faninfo" rows="1" cols="18" background-color= 'white' required></textarea>
+          </section>
+          <section class="email">
+            <label for="email">Your email</label>
+            <br>
+            <textarea id="faninfo" name="faninfo" rows="1" cols="18" background-color= 'white' required></textarea>
+          </section>
+        </div>
+        <br>
           <section class="submission">
-            <input type="submit" value="Submit" id="submit">
+            <input type="submit" value="Submit" id="submitsong"><br><br>
+            <p id= 'submitmessage' style= 'display: none'>Great art takes time, please be patient!</p>
           </section>
 
 
