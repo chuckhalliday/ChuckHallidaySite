@@ -37,6 +37,14 @@ body #picture {
 
 }
 
+#TW {
+  list-style: none;
+}
+
+#TW h2{
+  margin: 0;
+}
+
 .songform {
   color:rgb(201, 201, 201);
   font-family: Montserrat, sans-serif;
