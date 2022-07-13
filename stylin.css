@@ -37,12 +37,12 @@ body #picture {
 
 }
 
-#TW {
+#TW ul{
   list-style: none;
 }
 
 #TW h2{
-  margin: 0;
+  margin: 20px;
 }
 
 .songform {
