@@ -15,7 +15,7 @@
 <body>
     <style>.hide {position:absolute; bottom:-1px; right:-1px; width: 1px; height:1px;}</style>
     <iframe name='hiddenFrame' class='hide'></iframe>
-    <form action= "" method= "POST" class= "songform" target='hiddenFrame'>
+    <form action= "songformsend.php" method= "POST" class= "songform" target='hiddenFrame'>
         <h2>Sketch a song</h2>
         <br>
         <section class= "tonality">
@@ -69,15 +69,12 @@
           <section class="usersname">
             <label for="usersname">Your name</label>
             <br>
-            <textarea id="faninfo" name="faninfo" rows="1" cols="18" background-color= 'white' required></textarea>
+            <textarea id="faninfo" name="username" rows="1" cols="18" background-color= 'white' required></textarea>
           </section>
           <section class="email">
             <label for="email">Your email</label>
             <br>
-            <textarea id="faninfo" name="faninfo" type= "email" rows="1" cols="18" background-color= 'white' required></textarea>
-          </section>
-          <section>
-            <input type="file" accept="image/*">
+            <textarea id="faninfo" name="email" type= "email" rows="1" cols="18" background-color= 'white' required></textarea>
           </section>
         </div>
         <br>
