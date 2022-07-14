@@ -14,14 +14,15 @@
 }
 
 .wrapper h1 {
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
   font-weight: bold;
   font-size: 28pt;
 }
 
 .wrapper h2 {
-  margin-bottom: 80px;
-  margin-top: 80px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
 a {
@@ -32,7 +33,6 @@ a {
 body #picture {
   max-width: 500px;
   max-height: auto;
-  margin: 50px;
   object-fit: contain;
 
 }
@@ -41,11 +41,15 @@ ul{
   list-style-type: none;
 }
 
-#TW h2{
+#site h2{
   font-size: 23pt;
   margin-top: 20px;
   margin-bottom: 10px;
   text-decoration: underline;
+}
+#siteDesc li{
+  font-size: 10pt;
+  margin: 4px;
 }
 
 .songform {
@@ -73,12 +77,12 @@ select, #lyrics, #faninfo {
   text-overflow: ellipsis;
 }
 
-.usersname {
+.lfloat {
   position:sticky;
   float:left
 }
 
-.email {
+.rfloat {
   position: sticky;
   float:right
 }
