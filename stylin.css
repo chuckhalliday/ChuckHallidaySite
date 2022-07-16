@@ -34,7 +34,6 @@ body #picture {
   max-width: 500px;
   max-height: auto;
   object-fit: contain;
-
 }
 
 
@@ -106,16 +105,9 @@ select, #lyrics, #faninfo {
   position: relative;
 }
 
-@media screen and (max-width:414px) {
+@media screen and (max-width:480px) {
   body #picture {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    max-height: auto;
-    margin: 50px;
-    object-fit: contain;
-    justify-content: center;
-    align-items: center;
+    max-width: 100%;
   }
 
 }
