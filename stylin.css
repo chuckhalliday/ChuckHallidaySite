@@ -30,10 +30,14 @@ a {
   text-decoration: none;
 }
 
-body #picture {
+.picture {
   max-width: 500px;
   max-height: auto;
   object-fit: contain;
+}
+
+#drumPic {
+  filter: grayscale(100%) contrast(220%) sepia(20%);
 }
 
 
