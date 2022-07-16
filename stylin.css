@@ -37,6 +37,7 @@ body #picture {
 
 }
 
+
 ul{
   list-style-type: none;
 }
@@ -77,14 +78,32 @@ select, #lyrics, #faninfo {
   text-overflow: ellipsis;
 }
 
+.picText {
+  display: flex;
+  max-width: 500px;
+  width: 100%;
+  object-fit: contain;
+}
+
 .lfloat {
-  position:sticky;
-  float:left
+  display: inline-block;
+  text-align: center;
+  width: 48%;
+  position: relative;
+}
+
+.center {
+  display: inline-block;
+  text-align: center;
+  width: 4%;
+  position: relative;
 }
 
 .rfloat {
-  position: sticky;
-  float:right
+  display: inline-block;
+  text-align: center;
+  width:48%;
+  position: relative;
 }
 
 @media screen and (max-width:414px) {
